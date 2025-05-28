@@ -4,7 +4,8 @@ Este projeto é um gerador automático de cenários de teste BDD (Behavior Drive
 
 ## Pré-requisitos
 
-- Java 17+
+- Java 17+ (JDK)
+- Kotlin
 - Gradle
 - [Ollama](https://ollama.com/) rodando localmente ou em um servidor acessível
 - [Qdrant](https://qdrant.tech/) rodando localmente ou em um servidor acessível
