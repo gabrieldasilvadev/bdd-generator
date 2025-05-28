@@ -11,8 +11,6 @@ object CodeWriter {
     val path = if (envPath != null) {
       println("Using path from environment variable $ENV_OUTPUT_PATH: $envPath")
       envPath
-    } else if (File(sourcePath).isAbsolute) {
-      sourcePath
     } else {
       sourcePath
     }
